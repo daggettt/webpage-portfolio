@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat?query=mon&category=Serif,Sans+Serif">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>My Single Page Website</title>
+</head>
+<body>
+    <header>
+      <img class="logo" src="logo.png" alt="logo" width="75">
+      <nav>
+        <ul class="nav_links">
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">About</a></li>
+          <li><a href="#section3">Projects</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#section4"><button>Contact Me</button></a>
+    </header>
+    <div id="section1">
+        <h1 id="headline"> Hi there & welcome to my webpage!</h1>
+        <div class="grid-section1">
+            <h2>My name is <b>Rebecca</b> <i>(she/they)</i>, and I'm a full-time arts facilitator, freelance illustrator & wannabe JavaScript wizard, based in Guelph, Ontario.</h2>
+            <img class="headshot" src="headshot.JPEG" width="180">
+        </div>
+            <p>Thank you for visiting my webpage - I appreciate you taking the time to learn a little bit about me. If you're curious about my web development journey, please keep scrolling. 
+                Alternatively, you can use the <b>Navigation bar</b> above to quickly refer to any section on my webpage.</h3>
+            <p>If you're eager to get in touch, you can find my contact details at the bottom of this page, or by clicking the <b>Contact button</b> above. 
+                Regardless of how you'd like to connect, I'd love to hear from you!</h3>
+            <h2 id="thank-you">Thanks again for stopping by!</h2>
+    </div>
+        
+    <div id="section2">
+        <h1>A little bit about me...</h1>
+        <p>Like many folks during the summer of 2020, I found myself in need of a new hobby. With an unprecedented amount of free time - <i>and existential dread</i> - 
+            I decided to dabble with web design. This eventually led me down a Reddit rabbit hole wherein I was first introduced to <b>The Odin Project</b> (TOP).</p>
+        <div class="container2">
+            <img id="TOP-logo" src="TOP_logo.png" width="200">
+            <p>TOP is a free full-stack web development course, and is constantly being updated by a supportive community of writers and coders - many of whom are former learners.
+                I thought the program was incredible, and over the course of several months I completed TOP's Foundations Curriculum, which introduced me to:</p>
+        </div>
+        <ul>
+            <li>HTML Best Practices</li>
+            <li>CSS Concepts like the Box Model, CSS Grid and Flexbox layouts</li>
+            <li>JavaScript Fundamentals</li>
+            <li>DOM Manipulation & Events</li>
+            <li>Command Line and Git Basics</li>
+            <li>How to write clean, concise, and accessible code</li>
+        </ul>
+        <div>
+            <p>Beyond these skills, TOP taught me how to focus my creative energy into programming - something that I would have laughed at in February, 2020.
+                And yet, despite the learning curve, I quickly realized how rewarding this pasttime could be. At this point, the pandemic had forced me into a part-time position and I could feel that my art career was beginning to stagnate. 
+                Although I was still enjoying my role as an arts-facilitator I quickly realized that the most exciting part of my day was coming home after a 5 hour shift and working through TOP's self-directed lessons and assigments.
+            </p>
+            <p>I found that I liked the way programming forced me to break problems down into manageable blocks. I liked that every (frustrating) issue had a solution - as long as I knew what question to ask.
+                And I <b>loved</b> how I could apply my problem-solving brain to any challenge thrown at me. I was starting to realize that programming problems required creative solutions.
+            </p>
+
+            <p>Though I still work in arts & culture, I've begun to explore my interest in responsive design and accessible user-experiences. To hone these skills, I am planning to study:</p>
+            <ul class="nobullet">
+                <li><a href="https://grow.google/certificates/ux-design/#?modal_active=none">UI/UX Design Principles</a></li>
+                <li><a href="https://www.w3.org/WAI/">Web Accessibility Standards</a></li>
+               
+            </ul>
+                
+        </div>
+    </div>
+        
+    <div id="section3">
+            <h1>Project Examples</h1>
+            <div id="project-1" class="project-row">
+                
+                <div class="p-description">
+                    <h2>Rock, Paper, Scissors Game</h2>
+                    <p>This project was completed as part of TOP's introductory module on Javascript functions, and was initally designed to work solely in the console. 
+                        It required a solid understnding of HTML/CSS and JavaScript. Completed in January, 2021, this was my first project made with JavaScript.
+                    </p>
+                    <div>
+                        <a class="demo-link" href="https://daggettt.github.io/RPSGame/RPS.html">Demo</a>
+                        </div>
+                    </div>
+                
+                <img src="RPS-screenshot.JPG" class="p-preview">
+            </div>
+           
+
+            <div id="project-2" class="project-row">
+                <img src="etch-sketch-screenshot.JPG" class="p-preview" width="500">
+                <div class="p-description">
+                    <h2>Minimalist Etch-a-Sketch App</h2>
+                    <p>This mini app utilizes JavaScript for a simplified etch-a-sketch experience. The goal of the project was to make a grid surface that could be customized by the user.</p>
+                    <div>
+                        <a class="demo-link" href="https://daggettt.github.io/Etch-a-Sketch/">Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="project-3" class="project-row"> 
+                <div class="p-description">
+                    <h2>Calculator App</h2>
+                    <p>My Calculator App was the final project of TOP's Foundation Curriculum. Created using JavaScript, basic DOM manipulation, and HTML/CSS, the
+                        final design was loosely inspired by the <i>Glassmorphism</i> trends from 2020. 
+                    </p>
+                    <div>
+                        <a class="demo-link" href="https://daggettt.github.io/calculator/">Demo</a>
+                    </div>
+                </div>
+                <img src="calculator-screenshot.JPG" class="p-preview">
+            </div>
+    </div>    
+            
+        
+    <div id="section4">
+        <h1>Contact Me</h1>
+            <h2>Have a question? Or just want to say hello?</h2>
+            <h2>You can reach me through:</h2>
+        <div id="container-contact"> 
+            <h2>Contact Form</h2>
+            <div id="contact-form">
+                <form action="https://formsubmit.co/rebeccaldaggett@gmail.com" method="POST">
+                    <input type="email" class="field" name="email" placeholder="Your Email Address" required>
+                    <input type="text" class="field" name="name" placeholder="Your Name" required>
+                    <input type="text" class="field" name="message" placeholder="Your Message" required>
+                    <button type="submit" onclick="myFunction()">Send</button>
+                </form>  
+            </div>
+            <p><i>Or</i>, you can contact me directly at:</p>
+            <div id="contacts">
+                <div id="contacts-row">
+                    <a href="mailto:rebeccaldaggett@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i></a>
+                    <a href="mailto:rebeccaldaggett@gmail.com"><p>rebeccaldaggett@gmail.com</p></a>
+                </div>
+                <div id="contacts-row">
+                    <a href="https://www.linkedin.com/in/rebecca-l-daggett/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/rebecca-l-daggett/"><p id="linkedin">LinkedIn</p></a>
+                </div>
+                <div id="contacts-row">
+                    <a href="https://www.instagram.com/r.daggett/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="https://www.instagram.com/r.daggett/"><p id="insta">@r.daggett</p></a>
+                </div>
+            </div>
+        </div>
+        <h2>I can't wait to hear from you!  <i class="fa-solid fa-face-smile" fa-2x></i></h2> 
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-content-row">
+                <p><b>Rebecca Daggett </b>is a full-time arts facilitator, freelance illustrator & wannabe JavaScript wizard, based in Guelph, Ontario.</p>
+                <img src="logo.png" width="80">
+            </div>
+            <ul class="socials">
+                <li><a href="mailto:rebeccaldaggett@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/rebecca-l-daggett/"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
+                <li><a href="https://www.instagram.com/r.daggett/"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 - designed by <span>Rebecca Daggett</span></p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction () {
+        alert("Thank you for your message! I will respond to your inquiry as soon as I can.");
+        }
+    </script> 
+  </body>
+  </html>
